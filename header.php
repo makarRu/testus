@@ -10,12 +10,11 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
-<body>
+<body style="background: url(img/back.png) no-repeat;
+background-size: 115%;">
 
 <div id="header">
     <h2>Шапка сайта</h2>
-
-    <a href="/index.php">Главная</a>
 
     <div id="auth_block">
     <?php 
@@ -43,4 +42,3 @@
     </div>
      <div class="clear"></div>
 </div>
-
